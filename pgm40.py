@@ -1,0 +1,5 @@
+rr1,ml1=map(int,input().split())
+rr2,ml2=map(int,input().split())
+hr1=abs(rr1-rr2)
+rm1=abs(ml1-ml2)
+print(hr1,rm1) 
