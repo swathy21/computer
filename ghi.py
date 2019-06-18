@@ -1,5 +1,5 @@
-get=int(input())
-k=0
-for i in range(1,get+1):
-  k=k+i
-print(k)
+g=int(input())
+r=0
+for i in range(1,g+1):
+  r=r+i
+print(r)
