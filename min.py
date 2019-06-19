@@ -1,2 +1,2 @@
-lis=list(map(int,input().split()))
-print(min(lis))
+pa=list(map(int,input().split()))
+print(min(ps))
