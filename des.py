@@ -1,5 +1,5 @@
-a,b,c=input().split()
-if(b=='/'):
-    print(int(a)//int(c))
+s,a,d=input().split()
+if(a=='/'):
+    print(int(s)//int(d))
 else:
-    print(int(a)%int(c))
+    print(int(s)%int(d))
