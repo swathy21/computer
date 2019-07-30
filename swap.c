@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <string.h>
-void main(){
-     char str[20],tmp;
+int main()
+{
+     char swa[20],tmp;
      int i,j;
-    
-     scanf("%s",str);
-     for(i=0;i<strlen(str);i=i+2)
+     scanf("%s",swa);
+     for(i=0;i<strlen(swa);i=i+2)
      {
-     tmp = str[i];
-     str[i] = str[i+1];
-     str[i+1] = tmp;
+     tmp = swa[i];
+     swa[i] = swa[i+1];
+     swa[i+1] = tmp;
      }
-     printf( "%s",str);
+     printf( "%s",swa);
      getch();
+     return 0;
 }
