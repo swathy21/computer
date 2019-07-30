@@ -12,6 +12,5 @@ int main()
      swa[i+1] = tmp;
      }
      printf( "%s",swa);
-     getch();
      return 0;
 }
